@@ -74,7 +74,7 @@ allprojects {
     maven {
       // Local expo-camera Maven repo containing our slightly modified
       // Google's cameraview from expo/cameraview.
-      url "$rootDir/../packages/expo-camera/android/maven"
+      url "$rootDir/../../../packages/expo-camera/android/maven"
     }
     flatDir {
       dirs 'libs'
